@@ -139,7 +139,15 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="gestorEventos.c" />
     <ClCompile Include="mainTpFinal.c" />
+    <ClCompile Include="menus.c" />
+    <ClCompile Include="servicio.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gestorEventos.h" />
+    <ClInclude Include="menus.h" />
+    <ClInclude Include="servicio.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
