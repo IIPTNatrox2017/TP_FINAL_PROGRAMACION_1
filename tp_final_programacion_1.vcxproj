@@ -18,6 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LIBRERIAS\DOMINIO\gestorEventos.c" />
+    <ClCompile Include="LIBRERIAS\INTERFAZ_DE_USUARIO\menus.c" />
+    <ClCompile Include="LIBRERIAS\SERVICIO\servicio.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LIBRERIAS\DOMINIO\gestorEventos.h" />
+    <ClInclude Include="LIBRERIAS\INTERFAZ_DE_USUARIO\menus.h" />
+    <ClInclude Include="LIBRERIAS\SERVICIO\servicio.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,17 +148,6 @@
       <EnableSegmentHeap>true</EnableSegmentHeap>
     </Manifest>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="gestorEventos.c" />
-    <ClCompile Include="mainTpFinal.c" />
-    <ClCompile Include="menus.c" />
-    <ClCompile Include="servicio.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="gestorEventos.h" />
-    <ClInclude Include="menus.h" />
-    <ClInclude Include="servicio.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

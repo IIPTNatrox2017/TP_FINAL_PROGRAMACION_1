@@ -1,43 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="INTERFAZ_DE_USUARIO">
-      <UniqueIdentifier>{9a9ba6f1-c96c-4df5-abfc-01633ca1f5b3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="carpeta_raiz">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="DOMINIO">
-      <UniqueIdentifier>{a094f005-2f0a-432a-a7c1-20571ce7cf32}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="SERVICIO">
-      <UniqueIdentifier>{d7e0cab0-df20-4031-9e8b-da071905dfb3}</UniqueIdentifier>
-    </Filter>
+    <ClCompile Include="LIBRERIAS\DOMINIO\gestorEventos.c" />
+    <ClCompile Include="LIBRERIAS\INTERFAZ_DE_USUARIO\menus.c" />
+    <ClCompile Include="LIBRERIAS\SERVICIO\servicio.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="mainTpFinal.c">
-      <Filter>carpeta_raiz</Filter>
-    </ClCompile>
-    <ClCompile Include="menus.c">
-      <Filter>INTERFAZ_DE_USUARIO</Filter>
-    </ClCompile>
-    <ClCompile Include="gestorEventos.c">
-      <Filter>DOMINIO</Filter>
-    </ClCompile>
-    <ClCompile Include="servicio.c">
-      <Filter>SERVICIO</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="menus.h">
-      <Filter>INTERFAZ_DE_USUARIO</Filter>
-    </ClInclude>
-    <ClInclude Include="gestorEventos.h">
-      <Filter>DOMINIO</Filter>
-    </ClInclude>
-    <ClInclude Include="servicio.h">
-      <Filter>SERVICIO</Filter>
-    </ClInclude>
+    <ClInclude Include="LIBRERIAS\DOMINIO\gestorEventos.h" />
+    <ClInclude Include="LIBRERIAS\INTERFAZ_DE_USUARIO\menus.h" />
+    <ClInclude Include="LIBRERIAS\SERVICIO\servicio.h" />
   </ItemGroup>
 </Project>
