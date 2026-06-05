@@ -19,13 +19,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="LIBRERIAS EXTERNAS\scanner.c" />
     <ClCompile Include="LIBRERIAS\DOMINIO\gestorEventos.c" />
     <ClCompile Include="LIBRERIAS\INTERFAZ_DE_USUARIO\menus.c" />
+    <ClCompile Include="LIBRERIAS\Librerias Externas\scanner.c" />
     <ClCompile Include="LIBRERIAS\SERVICIO\servicio.c" />
+    <ClCompile Include="mainTpFinal.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="LIBRERIAS EXTERNAS\scanner.h" />
     <ClInclude Include="LIBRERIAS\DOMINIO\gestorEventos.h" />
     <ClInclude Include="LIBRERIAS\INTERFAZ_DE_USUARIO\menus.h" />
+    <ClInclude Include="LIBRERIAS\Librerias Externas\scanner.h" />
     <ClInclude Include="LIBRERIAS\SERVICIO\servicio.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
