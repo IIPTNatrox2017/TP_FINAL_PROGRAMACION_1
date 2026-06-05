@@ -1,5 +1,8 @@
+#define _CRT_SECURE_NO_WARNINGS
+
 #include "gestorEventos.h"
 #include "../Librerias Externas/scanner.h"
+#include <stdio.h>
 
 typedef struct	stPuntaje
 {
@@ -46,7 +49,7 @@ void abrirArchivoLimpio(char nombreArchivo[])
 	if (!fp)
 	{
 		printf("Error, no se logro abrir el archivo.\n");
-		return 0;
+		return;
 	}
 
 	printf("El archivo se creo y/o abrio vacio.\n");
