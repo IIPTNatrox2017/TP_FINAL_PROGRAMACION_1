@@ -2,7 +2,8 @@
 #define _GESTOREVENTOS_H_INCLUDED
 
 
-
+void abrirArchivoLimpio(char nombreArchivo[]);
+void cargarArchivoConNominaciones(char nombreArchivo[]);
 
 
 

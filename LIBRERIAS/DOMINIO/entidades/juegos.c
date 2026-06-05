@@ -1,4 +1,8 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include "../cabeceraEntidades/juegos.h"
+#include "../../Librerias Externas/scanner.h"
+#include <stdio.h>
+
 #define DIM_MAX_NOMBRES 50
 
 
@@ -39,11 +43,12 @@ FechaLanzamiento cargarFLanzamiento(FechaLanzamiento aux)
 	printf("Ingrese mes del Lanzamiento:\n >>> ");
 	aux.mes = scanInt();
 
-	printf("Ingrese mes del Lanzamiento:\n >>> ");
+	printf("Ingrese anio del Lanzamiento:\n >>> ");
 	aux.anio = scanInt();
 
 	return aux;
 }
+
 
 Puntaje cargarPuntajeJuego(Puntaje aux)
 {
