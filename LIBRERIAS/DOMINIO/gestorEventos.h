@@ -1,1 +1,9 @@
-#pragma once
+#ifndef _GESTOREVENTOS_H_INCLUDED
+#define _GESTOREVENTOS_H_INCLUDED
+
+
+
+
+
+
+#endif

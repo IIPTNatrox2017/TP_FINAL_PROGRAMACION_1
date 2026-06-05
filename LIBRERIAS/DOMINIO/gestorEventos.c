@@ -1,45 +1,13 @@
 #define _CRT_SECURE_NO_WARNINGS
 
+#include <stdio.h>
 #include "gestorEventos.h"
 #include "../Librerias Externas/scanner.h"
-#include <stdio.h>
+#include "cabeceraEntidades/juegos.h"
+#include "cabeceraEntidades/nominaciones.h"
 
-typedef struct	stPuntaje
-{
-	float valorPuntaje;
-	int esValido;
-} Puntaje;
+#define DIM_MAX_NOMBRES 50
 
-typedef struct stFechaLanzamiento
-{
-	int dia;
-	int mes;
-	int anio;
-	int esValido;
-} FechaLanzamiento;
-
-typedef struct stJuego
-{
-	int idJuego;
-	char nombre[50];
-	char estudio[50];
-	char genero[50];
-} Juego;
-
-typedef struct stCategoria
-{
-	int idCategoria;
-	char nombre[50];
-} Categoria;
-
-typedef struct stNominacion
-{
-	int idNominacion;
-	Categoria categoria;
-	Juego juego;
-	Puntaje puntaje;
-	FechaLanzamiento fecha;
-}Nominacion;
 
 void abrirArchivoLimpio(char nombreArchivo[])
 {
@@ -57,12 +25,22 @@ void abrirArchivoLimpio(char nombreArchivo[])
 	fclose(fp);
 }
 
-void cargarArchivoConNominaciones()
+void cargarArchivoConNominaciones(char nombreArchivo[])
 {
+	FILE* fp;
+	fp = fopen(nombreArchivo, "ab");
 
-}
+	int seguir = 1;
 
-Nominacion cargarNuevaNominacion(Nominacion aux)
-{
+	if (!fp)
+	{
+		printf("No se logro abrir el archivo.\n");
+		return;
+	}
+
+	while (seguir == 1)
+	{
+
+	}
 	
 }
