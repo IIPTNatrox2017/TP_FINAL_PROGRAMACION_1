@@ -24,5 +24,10 @@ Nominacion cargarNominacion(Nominacion aux)
 	printf("Este juego esta nominado? [s/n]\n >>> ");
 	nominado = confirmar('s');
 
+	printf("Juego Guardado Con exito");
+
+	system("pause");
+	system("cls");
+
 	return aux;
 }

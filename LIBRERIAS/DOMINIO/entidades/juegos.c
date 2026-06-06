@@ -20,6 +20,11 @@ Juego cargarUnJuego(Juego aux)
 	printf("Ingrese Genero del Juego:\n >>> ");
 	scanString(aux.genero, DIM_MAX_NOMBRES);
 
+	printf("Datos del Juego Cargados con Exito.\n");
+
+	system("pause");
+	system("cls");
+
 	return aux;
 }
 
@@ -30,6 +35,11 @@ Categoria cargarUnaCategoria(Categoria aux)
 
 	printf("Ingrese Nombre de la Categoria a la que Pertenece:\n >>> ");
 	scanString(aux.nombre, DIM_MAX_NOMBRES);
+
+	printf("Datos de la Categoria Cargados con Exito.\n");
+
+	system("pause");
+	system("cls");
 
 	return aux;
 }
@@ -46,6 +56,11 @@ FechaLanzamiento cargarFLanzamiento(FechaLanzamiento aux)
 	printf("Ingrese anio del Lanzamiento:\n >>> ");
 	aux.anio = scanInt();
 
+	printf("Fecha de Lanzamiento Cargada con Exito.\n");
+
+	system("pause");
+	system("cls");
+
 	return aux;
 }
 
@@ -54,6 +69,11 @@ Puntaje cargarPuntajeJuego(Puntaje aux)
 {
 	printf("Ingrese Puntaje de Juego:\n >>> ");
 	aux.valorPuntaje = scanFloat();
+
+	printf("Puntaje Guardado.\n");
+
+	system("pause");
+	system("cls");
 
 	return aux;
 }

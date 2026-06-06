@@ -43,6 +43,8 @@ void cargarArchivoConNominaciones(char nombreArchivo[])
 	{
 		nuevo = cargarNominacion(nuevo);
 
+		fwrite(&nuevo, sizeof(Nominacion), 1, fp);
+
 		printf("Desea seguir cargando Nominaciones al archivo? [s/n] \n>>> ");
 		seguir = confirmar('s');
 	}
