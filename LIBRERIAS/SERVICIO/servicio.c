@@ -26,3 +26,21 @@ void mostrarGOTYS(char nombreArchivo[])
 
 	fclose(fp);
 }
+
+void darDeAltaUnaNominacion(char nombreArchivo[], Nominacion registroDeseado)
+{
+	FILE* fp = fopen(nombreArchivo, "rb+");
+
+	if (!fp)
+	{
+		printf("Error al intentar abrir archivo.\n");
+		return;
+	}
+
+	fseek(fp, 0, SEEK_SET);
+
+	Nominacion aux;
+
+
+	fclose(fp);
+}

@@ -52,3 +52,4 @@ void cargarArchivoConNominaciones(char nombreArchivo[])
 	fclose(fp);
 	
 }
+

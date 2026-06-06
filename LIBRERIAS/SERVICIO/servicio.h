@@ -4,6 +4,8 @@
 
 void mostrarGOTYS(char nombreArchivo[]);
 
+void darDeAltaUnaNominacion(char nombreArchivo[]);
+
 
 
 
