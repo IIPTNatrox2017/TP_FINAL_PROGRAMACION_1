@@ -18,5 +18,5 @@ int main()
 
 void saludo()
 {
-	printf("hola mundo.");
+	printf("hola banana.");
 }
