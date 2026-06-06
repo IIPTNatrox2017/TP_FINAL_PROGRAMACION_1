@@ -48,5 +48,7 @@ void cargarArchivoConNominaciones(char nombreArchivo[])
 		printf("Desea seguir cargando Nominaciones al archivo? [s/n] \n>>> ");
 		seguir = confirmar('s');
 	}
+
+	fclose(fp);
 	
 }

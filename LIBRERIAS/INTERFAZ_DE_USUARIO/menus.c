@@ -1,3 +1,5 @@
+#define _CRT_SECURE_NO_WARNINGS
+
 #include "menus.h"
 #include "../DOMINIO/cabeceraEntidades/nominaciones.h"
 
@@ -17,7 +19,7 @@ void mostrarunaNominacion(Nominacion aux)
 {
 	printf("============================\n");
 	printf("ID NOMINACION: %d\n", aux.idNominacion);
-	printf("NOMBRE DE JUEGO: %s | Nombre de Estudio: %s \n", aux.juego.nombre, aux.juego.estudio);
+	printf("NOMBRE DE JUEGO: %s | NOMBRE DEL ESTUDIO: %s \n", aux.juego.nombre, aux.juego.estudio);
 	printf("PUNTAJE: %.1f \n", aux.puntaje.valorPuntaje);
 	printf("============================\n");
 }

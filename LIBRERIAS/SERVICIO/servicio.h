@@ -2,7 +2,7 @@
 #define SERVICIO_H_INCLUDED
 
 
-void mostrarGOTYS(char nombreArchivo);
+void mostrarGOTYS(char nombreArchivo[]);
 
 
 
