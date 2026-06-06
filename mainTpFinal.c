@@ -11,5 +11,6 @@ int main()
 {
 	abrirArchivoLimpio(PRESENTACIONESGOTY);
 	cargarArchivoConNominaciones(PRESENTACIONESGOTY);
+	printf("prueba");
 	return 0;
 }
