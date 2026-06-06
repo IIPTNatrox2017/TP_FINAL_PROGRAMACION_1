@@ -5,19 +5,10 @@
 
 #define PRESENTACIONESGOTY "goty.bin"
 
-void saludo();
-
-
 
 int main()
 {
 	abrirArchivoLimpio(PRESENTACIONESGOTY);
 	cargarArchivoConNominaciones(PRESENTACIONESGOTY);
 	return 0;
-}
-
-void saludo()
-{
-	printf("hola banana.");
-	printf("hola natrox.");
 }
