@@ -9,8 +9,8 @@
 
 int main()
 {
-	abrirArchivoLimpio(PRESENTACIONESGOTY);
-	cargarArchivoConNominaciones(PRESENTACIONESGOTY);
+	/*abrirArchivoLimpio(PRESENTACIONESGOTY);*/
+	/*cargarArchivoConNominaciones(PRESENTACIONESGOTY);*/
 	mostrarGOTYS(PRESENTACIONESGOTY);
 	
 	return 0;
